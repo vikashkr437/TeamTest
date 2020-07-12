@@ -1,0 +1,65 @@
+body{
+    background:linear-gradient(90deg,yellow,orange,red);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+}
+html{
+    height: 100%;
+}
+.navbar{
+    background-color:rgba(255,255,255,0.5);
+}
+.navbar-brand{
+    font-size: 1.5rem;
+}
+.navbar-light .navbar-brand, 
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    padding-right: .8rem;
+}
+.nav-link:hover{
+    border-bottom: 2px solid black;
+}
+#content{
+    text-align: center;
+    margin-top:20%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.5),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.text-responsive1 {
+    font-size: calc(100% + 2vw + 2vh);
+}
+.text-responsive2 {
+    font-size: calc(100% + 1vw + 1vh);
+}
+.random2{
+    background-color: rgba(255,255,255,0.5);
+    padding-left:-15%;
+    padding:40px 80px 80px 80px;
+    z-index:-1;
+    min-height:300px;
+    position: relative;
+}
+.carousel{
+    position: unset;
+} 
+.carousel-indicators li{
+    background-color: black;
+}
+.carousel-control-prev button{
+    background-color: black;
+}
+.quote{
+    position: absolute;
+    left:10px;
+    top:-20px;
+    font-size:3rem;
+}
+.user{
+    height: 80px;
+    width:80px;
+    border-radius: 50%;
+}
