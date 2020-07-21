@@ -1,0 +1,192 @@
+body{
+    font-family: 'Rubik', sans-serif;
+
+    font-weight: 400;
+    background-color: #E4E4E1;
+    background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+    }
+    .navbar-toggler{
+        background-color: white !important;
+        margin-bottom: 10px;
+    }
+    .nav-social{
+        color: white;
+        transition: all 0.2s ease 0s;
+
+    }
+    .nav-social:hover{
+        color:skyblue;
+        transition: all 0.2s ease 0s;
+
+    }
+nav.navbar.navbar-expand-lg.navbar-light.bg-light{
+
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+            padding: 1.5% 10%;
+    
+    
+}
+.d-flex.flex-row.justify-content-center{
+    margin-top: 7px;
+}
+.navbar-light .navbar-nav .nav-link{
+font-weight: 300;
+    padding: 1.2rem;
+    font-size: large;
+    background: transparent;
+    color: white;
+    transition: all 0.2s ease 0s;
+    display:flex;
+
+}
+.navbar-light .navbar-nav .nav-link:hover{
+        background-color: black;
+    color: white;
+    transition: all 0.2s ease 0s;
+    border-radius: 2px;
+
+}
+.btn-flip {
+    opacity: 1;
+    outline: 0;
+    color: #fff;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+  }
+  .btn-flip:hover:after {
+    opacity: 1;
+    -webkit-transform: translateY(0) rotateX(0);
+            transform: translateY(0) rotateX(0);
+  }
+  .btn-flip:hover:before {
+    opacity: 0;
+    -webkit-transform: translateY(50%) rotateX(90deg);
+            transform: translateY(50%) rotateX(90deg);
+  }
+  .btn-flip:after {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    color: #323237;
+    display: block;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    position: absolute;
+    background: #adadaf;
+    content: attr(data-back);
+    -webkit-transform: translateY(-50%) rotateX(90deg);
+            transform: translateY(-50%) rotateX(90deg);
+  }
+  .btn-flip:before {
+    top: 0;
+    left: 0;
+    opacity: 1;
+    color: #adadaf;
+    display: block;
+    padding: 0 30px;
+    line-height: 40px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    position: relative;
+    background: #323237;
+    content: attr(data-front);
+    -webkit-transform: translateY(0) rotateX(0);
+            transform: translateY(0) rotateX(0);
+  }
+  
+.main-content.container{
+    margin-top: 150px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin-bottom: 100px;
+}
+.main-content.container h1{
+    text-align: center;
+    font-size: 3.0em;
+}
+p.d-flex.justify-content-end{
+    text-align: end;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.main-content.container .container-fluid.tagline{
+    margin-bottom: 50px;
+    padding: 1% 15%;
+}
+.base-tag{
+ padding: 5% 0.2%;
+text-align: center;
+font-weight: 300;
+margin-bottom: 30px;
+}
+.sub-content.container-fluid{
+    margin-bottom: 100px;
+    backdrop-filter: 0.5;
+}
+.category-content{
+position: relative;
+width: 100%;
+margin-bottom: 15px;
+}
+.category-content img{
+    width: 100%;
+  height: auto;
+}
+.cat-btn{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #323237;
+  transition: all 0.5s ease 0s;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.cat-btn:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.5s ease 0s;
+
+}
+.content-post-showcards.container{
+    
+}
+.content-post-showcards img{
+width: 100%;
+}
+.post{
+    background-color: rgb(255,250,240);
+    padding: 2px;
+    margin: 10px;
+}
+h6{
+    padding: 10% 0%;
+    text-align: center;
+}
+.card-columns .card{
+    border-radius: 8px;
+    box-shadow: 0 0 16px #333;
+    transition: all 1.5s ease;
+    transition: grid-row-start 300ms linear;
+    transition: transform 300ms ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.card-columns .card:hover{
+    box-shadow: 0 0 32px #333;
+
+    transform: scale(1.025);
+
+}
+

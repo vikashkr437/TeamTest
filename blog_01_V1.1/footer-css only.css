@@ -1,0 +1,56 @@
+
+
+
+.user img{
+    border-radius: 50%;
+    height:40px;
+    width:40px;
+}
+#content a{
+    text-decoration: none;
+    color: black;
+}
+
+.userinfo{
+    font-size: 0.8rem;
+    line-height: 1rem ;
+}
+
+#postimage{
+    width: 100%;
+}
+#postinfo{
+    text-overflow: ellipsis;
+}
+#content div{
+    margin:20px;
+}
+
+
+/* footer section  */
+
+#footer {
+  padding: 7% 15%;
+  font-family: "Montserrat";
+  text-align: center;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+#footer h4,#footer p {
+  text-align: left;
+}
+
+
+#footer a {
+  color: white;
+}
+#footer a:hover {
+color: #a8a8a8;
+}
+
+.footer-col {
+  padding: 3% 2%;
+}
+.social-buttons {
+  margin: 10px;
+}
