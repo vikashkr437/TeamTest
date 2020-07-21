@@ -1,6 +1,9 @@
 
 
 
+.post{
+    overflow: auto;
+}
 .user img{
     border-radius: 50%;
     height:40px;
@@ -17,11 +20,18 @@
 }
 
 #postimage{
-    width: 100%;
+    width: 50%;
 }
-#postinfo{
-    text-overflow: ellipsis;
+select{
+    width:100%;
+    border: none;
+    height:50px;
 }
 #content div{
     margin:20px;
+}
+@media(max-width:576px){
+    #postimage{
+        width: 40%;
+    }
 }
